@@ -39,7 +39,7 @@ const Performance = require("./models/performanceSchema"); //added by jayshree
 
 //const policyRoutes = require("./routes/policyRoutes");
 //const policyAcknowledgementSchema = require("./models/policyAcknowledgementSchema");
-const PolicyAcknowledgement = require("./models/PolicyAcknowledgement");
+const PolicyAcknowledgement = require("./models/policyAcknowledgement");
 // ✅ Import Cloudinary config (convert import → require)
 const { v2: cloudinary } = require("cloudinary");
 const { CloudinaryStorage } = require("multer-storage-cloudinary");
